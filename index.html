@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍔 Contador Automático</title>
     <link rel="stylesheet" href="style.css">
-    <title>exit lanche</title>
-    <link rel="stylesheet" href="">
 </head>
 <body>
-    <script src="script.js"> </script>
- 
-    
+    <div class="container">
+        <h1 class="title">🍔 Exit Lanche - Contador Automático</h1>
+        
+        <div class="counter-section">
+            <div class="counter-item">
+                <div class="counter-label">Total de Dias</div>
+                <div class="counter-value" id="totalDays">0</div>
+            </div>
+            
+            <div class="counter-item">
+                <div class="counter-label">Total Ganho</div>
+                <div class="counter-value" id="totalMoney">R$ 0,00</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-text">
+                💰 Ganho automático: <strong>R$ 16,56 por dia</strong><br>
+                ⏰ Atualização: <strong>Todo dia às 00:00</strong>
+            </div>
+            <div class="next-update">
+                Próxima atualização em: <span class="time-display" id="nextUpdate">--:--:--</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
