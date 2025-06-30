@@ -1,4 +1,4 @@
-    let totalDays = 9;
+    let totalDays = 12;
     let dailyEarning = 16.56; // R$ 30 por dia
     let lastUpdateDate = null;
 
