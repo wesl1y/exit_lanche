@@ -113,9 +113,9 @@
     }
 
     .meta-item {
-        background: #eaeaeb70;
+        background: #f7f7f7ab;
         border-radius: 16px;
-        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.411);
+        box-shadow: 0 3px 8px rgba(148, 147, 147, 0.24);
         padding: 16px;
         margin-bottom: 16px;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
