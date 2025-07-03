@@ -114,13 +114,11 @@
 
     .meta-item {
         background: #f8f9fa;
-        border-radius: 15px;
-        padding: 20px;
-        margin-bottom: 15px;
-        border: 2px solid transparent;
-        transition: all 0.3s ease;
-        position: relative;
-        overflow: hidden;
+        border-radius: 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        padding: 16px;
+        margin-bottom: 16px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .delete-btn {
@@ -136,7 +134,7 @@
         align-items: center;
         justify-content: center;
         min-width: 20px;
-        height: 35px;
+        height: 41px;
     }
 
     .delete-btn:hover {
@@ -188,9 +186,11 @@
 
     .meta-header {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 15px;
-        margin-bottom: 15px;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
     }
 
     .checkbox-container {
@@ -221,6 +221,20 @@
         display: flex;
         gap: 10px;
         align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+    .meta-controls select,
+    .meta-controls button,
+    .meta-controls .delete-btn {
+        font-size: 1rem;
+        padding: 10px;
+        min-width: 120px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        flex: 1 1 auto;
     }
 
     .status-select {
@@ -315,7 +329,14 @@
         
         .meta-controls {
             flex-direction: column;
-            gap: 15px;
+            align-items: stretch;
+            gap: 8px;
+        }
+
+        .meta-controls select,
+        .meta-controls button,
+        .meta-controls .delete-btn {
+            width: 100%;
         }
         .delete-btn{
             padding: 20px;
