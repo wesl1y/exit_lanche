@@ -113,9 +113,9 @@
     }
 
     .meta-item {
-        background: #f8f9fa;
+        background: #eaeaeb70;
         border-radius: 16px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.411);
         padding: 16px;
         margin-bottom: 16px;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -165,7 +165,7 @@
     .meta-item:hover {
         border-color: #667eea;
         transform: translateY(-2px);
-        box-shadow: 0 10px 25px rgba(102, 126, 234, 0.15);
+        box-shadow: 0 10px 20px rgba(31, 38, 70, 0.336);
     }
 
     .meta-item::before {
