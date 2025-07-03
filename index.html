@@ -34,32 +34,6 @@
         <div class="metas-container">
             <h2 class="metas-title">🎯 Metas</h2>
 
-        <div class="meta-item">
-            <div class="meta-header">
-                <div class="checkbox-container">
-                    <input type="checkbox" id="tv" onchange="toggleMeta(this)">
-                </div>
-                <label for="tv" class="meta-name">TV</label>
-                <span class="meta-value">R$ 2.000</span>
-            </div>
-            <div class="meta-controls">
-                <select class="status-select" onchange="updateStatus(this)">
-                    <option value="planejando">🎯 Planejando</option>
-                    <option value="progresso">🔄 Em Progresso</option>
-                    <option value="pausado">⏸️ Pausado</option>
-                    <option value="concluido">✅ Concluído</option>
-                </select>
-                <select class="priority-select" onchange="updatePriority(this)">
-                    <option value="baixa">🟢 Baixa</option>
-                    <option value="media" selected>🟡 Média</option>
-                    <option value="alta">🔴 Alta</option>
-                </select>
-                <button class="delete-btn" onclick="deleteMeta('${meta.id}', this)">
-                    🗑️
-                </button>
-            </div>
-        </div>
-
         <button class="add-meta-btn" onclick="addNewMeta()">
             Adicionar Nova Meta
         </button>
